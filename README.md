@@ -30,14 +30,16 @@ Kullanım
 Kamera Seçimi: cap = cv2.VideoCapture(0) ile varsayılan web kameranızı kullanabilirsiniz.
 Video Modu (Opsiyonel): cap = cv2.VideoCapture("../Videos/motorbikes.mp4") satırını açarak video dosyası üzerinden de test yapabilirsiniz.
 Sonuçları Görüntüleme: Hareket tespitini ve sınıflandırmayı anlık olarak ekranınızda görebilirsiniz.
+
 Ekran Görüntüleri
+Tespit edilen el hareketi ve sınıflandırma sonucu.
 
 ![image](https://github.com/user-attachments/assets/6658c5fb-2f2b-4567-861f-bb8ca0f5c4e4)
 
-Tespit edilen el hareketi ve sınıflandırma sonucu.
+
 
 Kullanılan Teknolojiler
-[eğitim seti]([https://www.google.com](https://universe.roboflow.com/team-roboflow/rock-paper-scissors-detection/dataset/44))
+[eğitim seti](https://universe.roboflow.com/team-roboflow/rock-paper-scissors-detection/dataset/44)
 
 YOLO Modeli: Hareket tespiti için.
 OpenCV: Görüntü işleme ve video analizi.
